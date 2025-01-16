@@ -93,7 +93,7 @@ In 1995 Netscape (the maker of the popular browser Navigator) decided to add the
 
 In 1996 Netscape turned control of JavaScript over to ECMA International in an attempt to standardize the definition of the language. At that point JavaScript officially became know as ECMAScript, although it is still commonly referred to as JavaScript.
 
-Here is an example of a simple JavaScript program that combines variables and prints out the result.
+Here is an example of a simple JavaScript program that combines variables and prints out the result:
 
 ```js
 const join = (...a) => {
