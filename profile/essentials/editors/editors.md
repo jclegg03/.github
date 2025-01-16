@@ -40,7 +40,7 @@ The basic support that VS Code offers for working with Git is sufficient for mos
 
 VI, or technically vim, is one of the oldest console editors. It is extremely powerful and some incredibly talented software engineers use it as their sole development environment. The reason why you should learn VI is that it is available on every Linux server and can do anything that you will need. With that said it has a bit of an initial learning curve. However, once you have memorized a few basic commands you will be able to get around easily. If you take some time to really learn VI, you might find a new essential tool.
 
-There are lots of tutorials for VI. Here are a few based on how you like to learn.
+There are lots of tutorials for VI. Here are a few based on how you like to learn:
 
 - [Textual](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim)
 - [Video](https://youtu.be/RZ4p-saaQkc)
