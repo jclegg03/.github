@@ -2,7 +2,7 @@
 
 Having a basic knowledge of the history of web programming helps you to understand why we have the assortment of technologies that you will be working with. There has been three distinct phases that make up this history:
 
-1. The formation of the internet that supports the communication of web applications
+1. The formation of the internet that supports the communication of web applications.
 1. The creation of HTML and HTTP that made it possible to shared hyperlinked documents (Web 1.0).
 1. The creation of CSS and JavaScript that enabled interactive web applications (Web 2.0).
 
