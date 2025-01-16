@@ -6,7 +6,7 @@ Before we start digging into creating web servers and talking about protocols le
 
 You don't need to worry about the detail about how this all works. The point of this demonstration is just to give you a taste of the amazing things you can do with very little code. However, there are three technologies that make this work: HTML, CSS, and JavaScript.
 
-The HTML looks like the following and basically has a simple card with text in it.
+The HTML looks like the following and basically has a simple card with text in it:
 
 ```html
 <body>
