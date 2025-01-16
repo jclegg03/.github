@@ -60,7 +60,7 @@ vi index.html
 
 What you will immediately notice is that there is no menu bar or navigation aids. Instead, VI works entirely by keyboard commands. There are two modes in VI, command mode and insert mode. When you open VI, you are in command mode and all of the command keystrokes will work. To edit a document, use the command `i` to enter insert mode. Now your keystrokes will modify the document. To exit insert mode and type commands again, press `ESC`. Type `:q` from command mode (yes, you have to type the colon) to quit VI when you're done.
 
-The following short list of commands should allow you to do most of what you will ever want to do.
+The following short list of commands should allow you to do most of what you will ever want to do:
 
 | keystroke | meaning                                                                                                                                        |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
