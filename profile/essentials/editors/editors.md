@@ -24,7 +24,7 @@ So unless you are already a master of some other development environment, it is 
 
 The VS Code Live Server extension is great for building web applications. You are going to build a lot of HTML, CSS, and JavaScript. You can do much of this on CodePen, but for your projects you are going to be working in your development environment. This means you will have a GitHub repository cloned to your personal development computer. When you open VS Code to the directory where your repository is located you can start creating HTML, CSS, and JavaScript, but when you want to see your code working you need to actually run a web server to deliver your files to the browser. That is where the Live Server extension comes in handy. With the press of the `Go Live` button on the bottom right status bar, your entire project directory is served up through your browser. Additionally, if you make any changes to a file the browser will automatically be updated.
 
-To install the Live Server extension, open up VS Code and follow these three steps.
+To install the Live Server extension, open up VS Code and follow these three steps:
 
 ![LiveServer install](essentialsLiveServerInstall.png)
 

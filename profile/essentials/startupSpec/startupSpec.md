@@ -35,12 +35,11 @@ Make sure that your specification represents how you will represent all of the c
 
 - **HTML** - Basic structural and organizational elements
 - **CSS** - Styling and animating
-- **React** - React to what a user does, represent functionality with components, and route what is displayed using the React web framework. React helps you to modularize your code into components that represent things like a login form, a picture card, or a interactive part of a game. The routing that React provides changes what is displayed to the user based upon the actions they take. For example, after logging in, React whould change the display from the login conponents, to the game play components.
+- **React** - React to what a user does, represent functionality with components, and route what is displayed using the React web framework. React helps you to modularize your code into components that represent things like a login form, a picture card, or a interactive part of a game. The routing that React provides changes what is displayed to the user based upon the actions they take. For example, after logging in, React would change the display from the login component, to the game play component.
 - **Web service** - Remote functions that your application calls on your, and someone else's, web server _(e.g. saveScores, getWeather, chatWithFriend)_. You must include **at least one call to a service that you didn't write**. You can view a list of APIs here: [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis).
-
 - **Authentication**: An input for your user to create an account and login. You will want to display the user's name after they login.
 - **Database data**: A rendering of application data that is stored in the database. For Simon, this is the high scores of all players.
-- **WebSocket data**: A rendering of data that is received from your server. This may be realtime data sent from other users (e.g. chat or scoring data), or realtime data that your service is generating (e.g. stock prices or latest high scores). For Simon, this represents every time another user creates or ends a game.
+- **WebSocket data**: A rendering of data that is received from your server. This may be **realtime** data sent from other users (e.g. chat or scoring data), or realtime data that your service is generating (e.g. stock prices or latest high scores). For Simon, this represents every time another user creates or ends a game.
 
 ### Example of representing all technologies
 
@@ -48,13 +47,14 @@ Here is an theoretical example of what a voter application might supply in a spe
 
 - **HTML** - Uses correct HTML structure for application. Two HTML pages. One for login and one for voting. Hyperlinks to choice artifact.
 - **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
-- **React** - Provides login, choice display, applying votes, display other users votes, backend endpoint calls. Single page application with views componentized and reactive to user's actions.
+- **React** - Provides login, choice display, applying votes, display other users votes, backend endpoint calls. Single page application with component views and reactive to user's actions.
 - **Service** - Backend service with endpoints for:
   - retrieving choices
   - submitting votes
   - retrieving vote status
   - displayed a random dog picture using the https://dog.ceo/api/breeds/image/random service.
-- **DB/Login** - Store users, choices, and votes in database. Register and login users. Credentials securely stored in database. Can't vote unless authenticated.
+  - Register, login, and logout users. Credentials securely stored in database. Can't vote unless authenticated.
+- **DB** - Store authentication information, users, choices, and votes in database.
 - **WebSocket** - As each user votes, their votes are broadcast to all other users.
 
 ## Using Markdown
@@ -77,4 +77,12 @@ Submit the URL for your GitHub startup repository to the Canvas assignment.
 - 20% - A concise and compelling elevator pitch in your `README.md`
 - 10% - Description of key features in your `README.md`
 - 30% - Description of how you will use each technology
+  - **HTML** - Basic structural and organizational elements
+  - **CSS** - Styling and animating
+  - **React** - Componentization, routing, and functional interactivity.
+  - **Web service** - Endpoints provided by your backend service.
+  - **Third party service** - Endpoint provided by some other service.
+  - **Authentication**: Register, login, and logout.
+  - **Database data**: Store authentication and application data.
+  - **WebSocket data**: Realtime information pushed from your backend to your frontend.
 - 30% - One or more rough sketches of your application. Images must be embedded in your `README.md`.

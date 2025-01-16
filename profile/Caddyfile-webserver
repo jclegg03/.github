@@ -7,12 +7,7 @@ cs260.click {
 }
 
 learn.cs260.click {
-  root * /usr/share/caddy/instruction
-  file_server
-  header Access-Control-Allow-Origin *
-  header -etag
-  header -server
-  try_files {path} /
+  redir https://github.com/webprogramming260
 }
 
 
